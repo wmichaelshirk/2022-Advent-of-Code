@@ -5,7 +5,7 @@ fun main() {
             .takeWhile { it.toSet().size < size }
             .size + size
     }
-    val offset = 3 + 1 // The missing first three characters + the first successful
+
     fun part1(input: List<String>): Int {
         return firstPacketIndex(input.first(), 4)
     }
